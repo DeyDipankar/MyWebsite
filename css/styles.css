@@ -1,0 +1,32 @@
+body {
+  background-color: #bedbbb;
+  margin: 15px;
+}
+
+h1 {
+  color: #92817a;
+}
+
+h3 {
+  color: #707070;
+}
+
+hr {
+  border-style: dotted;
+  border-top-style: none;
+  width: 2%;
+  border-width: 5px;
+  background-color: #bedbbb;
+}
+
+textarea:invalid {
+  border: 2px solid red;
+}
+
+textarea:valid {
+  border: 2px solid lime;
+}
+
+textarea {
+  resize: none;
+}
